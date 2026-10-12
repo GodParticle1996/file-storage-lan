@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build output
+dist/
+build/
+client/dist/
+server/dist/
+
+# Env / secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+Thumbs.db
+
+# Mongo / R2 local sandbox data (if ever added)
+data/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.next/
+vu_output/
+*.webm
+*.mkv
